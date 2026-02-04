@@ -8,9 +8,11 @@ VAR has_gold = false
 
 -> glava_1
 === glava_1 ===
+#Location: fon1
 Кот: Правда ли, что в космосе до Гагарина побывала собака Звездочка?
 
     * [Да]
+#Location: fon2
     Кот: Молодец! Это верный ответ.
     ~ has_key = true // получил атрибут ключ
 
@@ -18,6 +20,7 @@ VAR has_gold = false
 
 
     * [Нет] 
+#Location: fon3
     Кот: Это был неверный ответ
 
     -> glava_2
