@@ -1,8 +1,5 @@
 VAR score = 0 
 VAR player_name = "Космический игрок" 
-VAR player_name_ploho = "Незнайка"
-VAR player_name_norm = "Старайка"
-VAR player_name_otl = "Знайка"
 VAR has_key = false
 VAR has_raketa = false
 VAR has_gold = false
@@ -16,7 +13,7 @@ VAR has_gold = false
     * [Да]
     Кот: Молодец! Это верный ответ.
     ~ has_key = true // получил атрибут ключ
-    ~ score = score + 1 // добавилось 1 очко за правильный ответ
+
    -> glava_2
 
 
@@ -28,8 +25,6 @@ VAR has_gold = false
 
 
 === glava_2 ===
-
-Текущий счет: {score}
 
 {has_key == true: Ты взял атрибут ключ!} // если есть ключ, то написать текст: ты взял атрибут ключ
 
